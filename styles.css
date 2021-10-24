@@ -8,15 +8,22 @@
 }
 main {
   width: 100%;
+  height: 100%;
+}
+#page {
+  margin: 0px auto;
+  width: 100%;
 }
 body {
   font-family: "Roboto", Courier, monospace;
+  height: 100%;
 }
 h1 {
   margin: 1rem;
 }
 
 header {
+  position: fixed;
   display: inline-block;
   width: 100%;
   height: 60px;
@@ -26,12 +33,28 @@ header input {
   visibility: hidden;
 }
 header span {
-  font-size: 30px;
+  font-size: 40px;
+  color: white;
+  margin: 30px;
+  margin-top: 20rem;
+  padding: 20px;
+}
+header span:hover {
+  font-size: 50px;
+  border-radius: 10px;
+  transition: all 300ms;
+  cursor: pointer;
+  color: #3a5700;
+
+  top: 30px;
 }
 .container {
+  margin-top: 60px;
+  overflow: auto;
+  position: fixed;
   width: 9rem;
-  height: 100vw;
-  position: relative;
+  height: 100%;
+
   vertical-align: center;
   border-right: solid 1px rgb(219, 219, 219);
 }

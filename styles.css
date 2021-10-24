@@ -33,14 +33,13 @@ header input {
   visibility: hidden;
 }
 header span {
-  font-size: 40px;
+  font-size: 50px;
   color: white;
   margin: 30px;
   margin-top: 20rem;
   padding: 20px;
 }
 header span:hover {
-  font-size: 50px;
   border-radius: 10px;
   transition: all 300ms;
   cursor: pointer;

@@ -1,6 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+main {
+  width: 100%;
+}
+body {
+  font-family: "Roboto", Courier, monospace;
+}
+h1 {
+  margin: 1rem;
+}
+
+header {
+  display: inline-block;
+  width: 100%;
+  height: 60px;
+  background-color: #7fbc03;
+}
+header input {
+  visibility: hidden;
+}
+header span {
+  font-size: 30px;
+}
 .container {
-  width: 20rem;
+  width: 9rem;
+  height: 100vw;
+  position: relative;
+  vertical-align: center;
+  border-right: solid 1px rgb(219, 219, 219);
+}
+.MiBoton {
+  width: 20 rem;
+  height: 7rem;
+  padding: 20px;
+  background-color: white;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  flex-direction: column;
+  text-align: center;
+  color: rgb(65, 65, 65);
+}
+
+.MiBoton:hover {
+  background-color: gainsboro;
+  font-size: larger;
+  font-weight: bold;
+  transition: all 0.1s ease-in-out;
+  transform: translateY(10px);
+  cursor: pointer;
+  color: #3a5700;
+}
+.container:hover .texto1 {
+  transform: translateY(10px) translateX(0px);
+  transition: all 100ms;
+}
+.container:hover .texto2 {
+  transform: translateY(10px) translateX(0px);
+  transition: all 200ms;
+}
+.container:hover .texto3 {
+  transform: translateY(10px) translateX(0px);
+  transition: all 300ms;
+}
+.container:hover .texto4 {
+  transform: translateY(10px) translateX(0px);
+  transition: all 400ms;
+}
+.container:hover .texto5 {
+  transform: translateY(10px) translateX(0px);
+  transition: all 500ms;
+}
+.container:hover .texto6 {
+  transform: translateY(10px) translateX(0px);
+  transition: all 600ms;
+}
+.container:hover .texto7 {
+  transform: translateY(10px) translateX(0px);
+  transition: all 700ms;
+}
+.container:hover .texto8 {
+  transform: translateY(10px) translateX(0px);
+  transition: all 800ms;
+}
+.MiBoton h4 {
   height: 5rem;
-  background-color: springgreen;
-  border-radius: 1rem;
+  padding: 10px;
+  transition: all 300ms;
+  transform: translateY(14px) translateX(-110px);
+}
+
+.MiBoton span {
+  font-size: 40px;
+}
+
+.MiBoton:active {
+  background-color: rgb(62, 126, 19);
 }
